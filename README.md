@@ -6,15 +6,14 @@ This repository contains code and data related to the "Natural Language Processi
 
 ### Data Source
 
-The dataset used in this project is sourced from Kaggle and can be found [here](https://www.kaggle.com/c/nlp-getting-started/data). It consists of labeled tweets that have been categorized into disaster-related and non-disaster-related categories.
+The dataset used in this project is sourced from Kaggle and can be found [here]([https://www.kaggle.com/c/nlp-getting-started/data](https://www.kaggle.com/c/nlp-getting-started/data)). It consists of labeled tweets that have been categorized into disaster-related and non-disaster-related categories.
 
 ## Project Structure
 
 The repository is organized as follows:
 
 - **data**: This directory contains the dataset used for training and evaluation.
-- **notebooks**: Jupyter notebooks used for various stages of the project, including data inspection, data wrangling, model training, and evaluation.
-- **src**: Contains Python scripts for utility functions or custom modules used in the notebooks.
+- **notebooks**: Google colab used for various stages of the project, including data inspection, data wrangling, model training, and evaluation.
 - **models**: This directory may contain saved model weights if applicable.
 - **results**: Saved model evaluation results, visualizations, or any other project-related output.
 
@@ -38,38 +37,14 @@ The project involved the creation of seven language models for tweet classificat
 6. **Conv1D Model**
 7. **Pretrained Embeddings Model**
 
-Each model's implementation can be found in the respective Jupyter notebook within the `notebooks` directory.
 
-## Usage
 
-To reproduce the results or explore the code, follow these steps:
 
-1. Clone this repository:
-
-   ```shell
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. Install the required dependencies. You may use a virtual environment for this:
-
-   ```shell
-   pip install -r requirements.txt
-   ```
-
-3. Open and run the Jupyter notebooks in the `notebooks` directory. Ensure that you have the dataset downloaded and placed in the `data` directory.
-
-## Results
-
-The results of model training and evaluation, including performance metrics and visualizations, can be found in the respective notebook outputs or in the `results` directory.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+  
 
 ## Acknowledgments
 
 - Kaggle for providing the dataset.
-- [OpenAI](https://www.openai.com/) for providing the GPT-3.5 architecture used for creating this README file template.
+
 
 Feel free to customize this README file with additional information, project-specific details, and acknowledgments as needed.
