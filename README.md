@@ -14,7 +14,7 @@ The repository is organized as follows:
 
 - **data**: This directory contains the dataset used for training and evaluation.
 - **notebooks**: Google colab used for various stages of the project, including data inspection, data wrangling, model training, and evaluation.
-- **models**: This directory may contain saved model weights if applicable.
+- **models**: This directory  contains saved model weights .
 - **results**: Saved model evaluation results, visualizations, or any other project-related output.
 
 ## Data Inspection and Wrangling
